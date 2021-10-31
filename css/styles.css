@@ -1,19 +1,33 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-}
-
-.link{
     color: #212121;
 }
 
+:root {
+    --brand-color: #212121;
+    --brand-color-text: #757575;
+}
+
+.link {
+    color: var(--brand-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
 .link:hover,
-.link:focus{
+.link:focus {
     color: #2196F3;
 }
 
 .button {
-    color: #212121;
+    color: var(--brand-color);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 187%;
 }
 
 .button:hover,
@@ -23,10 +37,88 @@ body {
 }
 
 .information {
-    color: #757575;
+    color: var(--brand-color-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .information:hover,
 .information:focus {
     color: #2196F3;
+}
+
+.web {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+}
+
+.hero-color {
+    background-color: #2F303A;
+}
+
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    color: #FFFFFF;
+}
+
+.special {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--brand-color)
+}
+
+.special-text {
+    font-size: 14px;
+    line-height: 171%;
+    color: var(--brand-color-text);
+}
+
+.what-we-do-team {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--brand-color);
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--brand-color);
+}
+
+.profession {
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--brand-color-text);
+}
+
+.address {
+    font-size: 14px;
+    line-height: 171%;
+    color: #FFFFFF;
+}
+
+.footer-color {
+    background-color: #2F303A;
+}
+
+.project {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 200%;
+    color: var(--brand-color);
+}
+
+.project-text {
+    font-size: 16px;
+    line-height: 187%;
+    color: var(--brand-color-text);
 }
