@@ -1,0 +1,32 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link{
+    color: #212121;
+}
+
+.link:hover,
+.link:focus{
+    color: #2196F3;
+}
+
+.button {
+    color: #212121;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.information {
+    color: #757575;
+}
+
+.information:hover,
+.information:focus {
+    color: #2196F3;
+}
