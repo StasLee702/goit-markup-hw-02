@@ -25,12 +25,24 @@ body {
     color: var(--button-link-main-color);
 }
 
-.button {
+.hero-color {
+    background-color: #2F303A;
+}
+
+.hero-color > .button {
     color: var(--brand-color);
     cursor: pointer;
     font-weight: bold;
     font-size: 16px;
     line-height: 187%;
+}
+
+.button-proj .button {
+    color: var(--brand-color);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 162%;
 }
 
 .button:hover,
@@ -59,11 +71,7 @@ body {
     color: var(--button-link-main-color);
 }
 
-.hero-color {
-    background-color: #2F303A;
-}
-
-.hero {
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 136%;
