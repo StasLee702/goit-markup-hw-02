@@ -7,6 +7,9 @@ body {
 :root {
     --brand-color: #212121;
     --brand-color-text: #757575;
+    --button-link-main-color: #2196F3;
+    --button-link-text-color: #FFFFFF;
+;
 }
 
 .link {
@@ -19,7 +22,7 @@ body {
 
 .link:hover,
 .link:focus {
-    color: #2196F3;
+    color: var(--button-link-main-color);
 }
 
 .button {
@@ -32,8 +35,8 @@ body {
 
 .button:hover,
 .button:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--button-link-main-color);
+    color: var(--button-link-text-color);
 }
 
 .information {
@@ -46,14 +49,14 @@ body {
 
 .information:hover,
 .information:focus {
-    color: #2196F3;
+    color: var(--button-link-main-color);
 }
 
 .web {
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
-    color: #2196F3;
+    color: var(--button-link-main-color);
 }
 
 .hero-color {
@@ -64,7 +67,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 136%;
-    color: #FFFFFF;
+    color: var(--button-link-text-color);
 }
 
 .special {
@@ -103,7 +106,7 @@ body {
 .address {
     font-size: 14px;
     line-height: 171%;
-    color: #FFFFFF;
+    color: var(--button-link-text-color);
 }
 
 .footer-color {
