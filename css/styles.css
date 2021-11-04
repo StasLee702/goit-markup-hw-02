@@ -32,7 +32,7 @@ body {
     font-family: inherit;
     color: var(--brand-color);
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
 }
@@ -41,7 +41,7 @@ body {
     font-family: inherit;
     color: var(--brand-color);
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -67,7 +67,7 @@ body {
 
 .web {
     font-family: Raleway;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -85,7 +85,7 @@ body {
 }
 
 .special {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -101,7 +101,7 @@ body {
 }
 
 .what-we-do-team {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
@@ -138,7 +138,7 @@ body {
 }
 
 .project {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
