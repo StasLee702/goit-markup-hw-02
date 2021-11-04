@@ -17,7 +17,12 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
+
+/* li {
+    list-style: none;
+} */
 
 .link:hover,
 .link:focus {
@@ -58,6 +63,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .information:hover,
@@ -72,6 +78,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--button-link-main-color);
+    text-decoration: none;
 }
 
 .hero-title {
@@ -131,6 +138,8 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--button-link-text-color);
+    text-decoration: none;
+
 }
 
 .footer-color {
