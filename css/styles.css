@@ -29,6 +29,7 @@ body {
 }
 
 .hero-color > .button {
+    font-family: inherit;
     color: var(--brand-color);
     cursor: pointer;
     font-weight: bold;
@@ -37,6 +38,7 @@ body {
 }
 
 .button-proj .button {
+    font-family: inherit;
     color: var(--brand-color);
     cursor: pointer;
     font-weight: bold;
