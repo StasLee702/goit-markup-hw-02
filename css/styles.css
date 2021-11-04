@@ -1,5 +1,4 @@
 body {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: #212121;
 }
@@ -65,6 +64,7 @@ body {
 }
 
 .web {
+    font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
