@@ -20,9 +20,9 @@ body {
     text-decoration: none;
 }
 
-/* li {
+.list {
     list-style: none;
-} */
+}
 
 .link:hover,
 .link:focus {
